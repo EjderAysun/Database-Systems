@@ -40,7 +40,7 @@ SELECT ship
 FROM Outcomes
 WHERE ship LIKE 'R%';
 
--- f) Find the names of all ships whose name consists of three or more words (e.g., King George V).
+-- !f) Find the names of all ships whose name consists of three or more words (e.g., King George V).
 SELECT name
 FROM Ships
 WHERE name LIKE '_% _% _%';
